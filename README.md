@@ -14,3 +14,23 @@ This project is a **trading bot prototype** for educational and research purpose
 - Make sure you **comply with all local laws and exchange rules** when testing.  
 
 By using this project, you acknowledge that you are solely responsible for any outcomes, gains, or losses.
+
+## Dependencies
+- make
+- cmake
+- g++ compiler
+
+## Usage
+
+Compile the project
+```bash
+make compile
+```
+Run the project
+```bash
+make run
+```
+Run the project's tests
+```bash
+make test
+```
