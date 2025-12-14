@@ -11,8 +11,6 @@ int main(void)
     NullMarketDataPort nmdp;
     auto fPtr = new FutureProduct("ES", nmdp);
 
-    std::cout << fPtr->GetState() << std::endl;
-
     delete fPtr;
 
 };
