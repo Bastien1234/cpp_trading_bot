@@ -22,5 +22,5 @@ WORKDIR /app
 COPY . .
 
 # Build and run
-RUN make build 
+RUN make compile 
 RUN make test 
